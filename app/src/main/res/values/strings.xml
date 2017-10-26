@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CanteenPayNFC</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="next"><![CDATA[NEXT >]]></string>
+    <string name="recharge">Recharge</string>
+    <string name="tap_your_id_and_press_next">Tap your Id and press Next</string>
+    <string name="uzunnu_vada">Uzunnu Vada</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="_0">0</string>
+    <string name="parippu_vada">parippu Vada</string>
+    <string name="ulli_vada">Ulli Vada</string>
+    <string name="next_"><![CDATA[Next >]]></string>
+    <string name="log_i">Log In</string>
+</resources>

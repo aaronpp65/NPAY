@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.creativeclan.canteenpaynfc.Display"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        tools:ignore="ObsoleteLayoutParam,RtlHardcoded,Suspicious0dp,TextFields">
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSend"
+        style="?borderlessButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:text="Send"
+        android:layout_alignParentTop="true"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded,Suspicious0dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No :"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit :"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT >" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECKOUT" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap your card and click next"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:layout_marginTop="100px"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+</LinearLayout>
